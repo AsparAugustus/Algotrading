@@ -1,2 +1,4 @@
 ETH-USDT.csv
 ETH-USDT.parquet
+/venv
+/__pycache__
