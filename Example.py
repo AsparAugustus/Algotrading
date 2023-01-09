@@ -40,10 +40,10 @@ def quick_clean(df):
     return df
 
 
-_df = pd.read_parquet("ETH-USDT.parquet")
+# _df = pd.read_parquet("ETH-USDT.parquet")
 
-# Write the DataFrame to a CSV file
-_df.to_csv('ETH-USDT.csv')
+# # Write the DataFrame to a CSV file
+# _df.to_csv('ETH-USDT.csv')
 
 # %%
 df = pd.read_csv('ETH-USDT.csv', parse_dates = True, index_col=0)
